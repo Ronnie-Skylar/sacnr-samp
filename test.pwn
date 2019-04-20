@@ -8,7 +8,7 @@ main(){
         str[MAX_SACNR_INFO_SIZE],
         server_id = 1805074;
     
-    format(hostname, sizeof hostname, "localhost");
+    format(hostname, sizeof hostname, "isparkhellzone.000webhostapp.com");
     SACNR_Connect(hostname);
     SACNR_getInfoById(server_id, str, sizeof str);
     printf("Info for Server ID: %d\n%s", server_id, str);
