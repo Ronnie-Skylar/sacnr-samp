@@ -1,6 +1,7 @@
 {
 	"user": "Ronnie-Skylar",
 	"repo": "sacnr-samp",
+	"include_path": "pawno/include",
 	"entry": "test.pwn",
 	"output": "test.amx",
 	"dependencies": [
